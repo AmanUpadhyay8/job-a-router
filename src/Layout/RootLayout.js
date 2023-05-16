@@ -7,8 +7,9 @@ export default function RootLayout () {
             <nav>
                 <h1>Job-A-Router</h1>
                 <NavLink to="/">Home</NavLink>
+                <NavLink to="/Careers">Careers</NavLink>            
                 <NavLink to="/about">About</NavLink>
-                <NavLink to="/help">Help</NavLink>
+                <NavLink to="/help">Help</NavLink>            
             </nav>
         </header>
 
