@@ -106,7 +106,7 @@ form label span {
 /* careers list */
 .careers > a {
   display: block;
-  background: rgba(0,0,0,0.2);
+  background: rgb(0, 0, 0, 0.2);
   padding: 20px;
   border-radius: 4px;
   margin: 20px 0;
@@ -124,6 +124,24 @@ form label span {
 }
 
 /* careers details */
+.career-details {
+  background: rgba(0,0,0,0.2);
+  padding: 20px;
+  border-radius: 4px;
+  margin: 20px 0;
+}
+
+/* Career Errors */
+
+.careers-error {
+  background: rgba(0,0,0,0.2);
+  padding: 20px;
+  border-radius: 4px;
+  margin: 20px 0;
+}
+.careers-error h2 {
+  color: var(--primary);
+}
 
 
 /* breadcrumbs */
